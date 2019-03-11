@@ -1,13 +1,13 @@
 package io.dracula.test.dubbo.swagger.provider;
 
+import com.deepoove.swagger.dubbo.annotations.EnableDubboSwagger;
 import org.springframework.context.annotation.Configuration;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author dk
  */
 @Configuration
-@EnableSwagger2
+@EnableDubboSwagger
 public class SwaggerConfiguration {
 
 }
