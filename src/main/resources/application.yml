@@ -3,7 +3,7 @@ dubbo:
   application:
     name: test-dubbo-swagger
   registry:
-    address: zookeeper://127.0.0.1:2181
+    address: N/A
 swagger:
   dubbo:
     doc: v2
