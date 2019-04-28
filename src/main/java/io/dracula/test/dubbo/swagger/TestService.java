@@ -12,4 +12,10 @@ public interface TestService {
      */
     String sayHello(String name);
 
+    /**
+     *
+     * @return
+     */
+    TestService getTestService();
+
 }
